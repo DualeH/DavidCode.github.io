@@ -20,6 +20,9 @@
 <a id="dualehgithubio" class="anchor" href="#dualehgithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>dualeh.github.io</h1>
 
 <p>咖菲猫的博客</p>
+<div id="app">
+  {{ message }}
+</div>
 
       <footer class="site-footer">
 
@@ -28,6 +31,14 @@
 
     </section>
 
-  
+    <script type="text/javascript" src="./javascript/vue.min.js"></script>
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue.js!'
+        }
+      })
+    </script>
   </body>
 </html>

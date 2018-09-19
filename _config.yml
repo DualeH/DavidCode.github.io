@@ -1,0 +1,8 @@
+title: 咖菲猫的博客 - GitHub
+description: 咖菲猫的博客
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
